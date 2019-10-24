@@ -1,0 +1,232 @@
+<html>
+<head>
+<title>Examen</title>
+
+</head>
+
+<script type="text/javascript">
+  var cali=0;
+function Calcular(){
+
+
+ respuesta1=document.getElementById("r1");
+ if (respuesta1.value=="Edgar Allan Poe") {
+    document.getElementById("mensaje1").innerHTML="Correcto";
+    cali++
+ }
+else{
+    document.getElementById("mensaje1").innerHTML="Incorrecto";
+}
+
+respuesta2=document.getElementById("r2");
+ if (respuesta2.value=="El retrato de Dorian Grey") {
+    document.getElementById("mensaje2").innerHTML="Correcto";
+    cali++
+ }
+else{
+    document.getElementById("mensaje2").innerHTML="Incorrecto";
+}
+
+respuesta3=document.getElementById("r3");
+ if (respuesta3.value=="El Romanticismo") {
+    document.getElementById("mensaje3").innerHTML="Correcto";
+    cali++
+ }
+else{
+    document.getElementById("mensaje3").innerHTML="Incorrecto";
+}
+
+respuesta4=document.getElementById("r4");
+ if (respuesta4.value=="La Iliada y La Odisea") {
+    document.getElementById("mensaje4").innerHTML="Correcto";
+    cali++
+ }
+else{
+    document.getElementById("mensaje4").innerHTML="Incorrecto";
+}
+
+respuesta5=document.getElementById("r5");
+ if (respuesta5.value=="Fausto") {
+    document.getElementById("mensaje5").innerHTML="Correcto";
+    cali++
+ }
+else{
+    document.getElementById("mensaje5").innerHTML="Incorrecto";
+}
+
+respuesta6=document.getElementById("r6");
+ if (respuesta6.value=="B.Traven") {
+    document.getElementById("mensaje6").innerHTML="Correcto";
+    cali++
+ }
+else{
+    document.getElementById("mensaje6").innerHTML="Incorrecto";
+}
+
+respuesta7=document.getElementById("r7");
+ if (respuesta7.value=="Las mil y una noches") {
+    document.getElementById("mensaje7").innerHTML="Correcto";
+    cali++
+ }
+else{
+    document.getElementById("mensaje7").innerHTML="Incorrecto";
+}
+
+respuesta8=document.getElementById("r8");
+ if (respuesta8.value=="Miguel de Cervantes") {
+    document.getElementById("mensaje8").innerHTML="Correcto";
+    cali++
+ }
+else{
+    document.getElementById("mensaje8").innerHTML="Incorrecto";
+}
+
+respuesta9=document.getElementById("r9");
+ if (respuesta9.value=="La mecanica del corazon") {
+    document.getElementById("mensaje9").innerHTML="Correcto";
+    cali++
+ }
+else{
+    document.getElementById("mensaje9").innerHTML="Incorrecto";
+}
+
+respuesta10=document.getElementById("r10");
+ if (respuesta10.value=="Octavio Paz") {
+    document.getElementById("mensaje10").innerHTML="Correcto";
+    cali++
+ }
+else{
+    document.getElementById("mensaje10").innerHTML="Incorrecto";
+}
+
+document.getElementById("calificacionfinal").innerHTML= cali;
+}
+</script>
+<body>
+<FORM NAME="formulario" ACTION="">
+            <center>
+            <h1>Examen</h1>
+            <h3>Seguridad Informatica</h3>
+            
+           <br>
+          
+            <label for="Pregunta1">1. ¿Quien es el autor de El cuervo?</label><br>
+            <br>
+            <br>
+            <input type="text" class="form-control" id="r1" name="r1"
+            placeholder="Ingresa Respuestas"  required>
+
+            <div id="mensaje1"></div>
+            <br>
+            <br>
+          
+            <label for="Pregunta2">2. Menciona un libro de Oscar Wilde</label>
+            <br>
+            <br>
+            <input type="text" class="form-control" id="r2" name="r2"
+            placeholder="Ingresa Respuestas" required>
+             <div id="mensaje2"></div>
+            <br>
+            <br>
+        
+            <label for="Pregunta3">3. Meciona un movimiento cultural que afectara a la literatura</label>
+            <br>
+            <br>
+            <input type="text" class="form-control" id="r3" name="r3"
+            placeholder="Ingresa Respuestas" required>
+            <div id="mensaje3"></div>
+            <br>
+            <br>
+          
+            <label for="Pregunta4">4. Menciona las obras literarias de homero</label>
+            <br>
+            <br>
+            <input type="text" class="form-control" id="r4" name="r4"
+            placeholder="Ingresa Respuestas"required>
+            <div id="mensaje4"></div>
+            <br>
+            <br>
+          
+            <label for="Pregunta5">5. Menciona un libro del romanticismo</label>
+            <br>
+            <br>
+            <input type="text" class="form-control" id="r5" name="r5"
+            placeholder="Ingresa Respuestas" required>
+            <div id="mensaje5"></div>
+            <br>
+            <br>
+          
+            <label for="Pregunta6"> 6.¿Quien es el autor del libro canaste de cuentos mexicanos?</label>
+            <br>
+            <br>
+            <input type="text" class="form-control" id="r6" name="r6"
+            placeholder="Ingresa Respuestas" required>
+            <div id="mensaje6"></div>
+            <br>
+            <br>
+         
+            <label for="Pregunta7"> 7. Menciona el libro mas famoso de Edward William Lane.</label>
+          <br>
+          <br>
+            <input type="text" class="form-control" id="r7" name="r7"
+            placeholder="Ingresa Respuestas" required>
+            <div id="mensaje7"></div>
+            <br>
+            <br>
+
+             <label for="Pregunta8"> 8. ¿Quien es el autor de el don Quijote?</label>
+          <br>
+          <br>
+            <input type="text" class="form-control" id="r8" name="r8"
+            placeholder="Ingresa Respuestas" required>
+            <div id="mensaje8"></div>
+            <br>
+            <br>
+
+
+            <label for="Pregunta9"> 9. Libro mas famoso de mathias malzieu.</label>
+          <br>
+          <br>
+            <input type="text" class="form-control" id="r9" name="r9"
+            placeholder="Ingresa Respuestas" required>
+            <div id="mensaje9"></div>
+            <br>
+            <br>
+
+
+            <label for="Pregunta10"> 10.¿Quien es el autor de el laberinto de la soledad?</label>
+          <br>
+          <br>
+            <input type="text" class="form-control" id="r10" name="r10"
+            placeholder="Ingresa Respuestas" required>
+            <div id="mensaje10"></div>
+            <br>
+            <br>
+
+
+
+
+  <button onclick="Calcular()">Terminar</button>
+  <br>
+  <br>
+Calificacion: <div id="calificacionfinal"></div>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<input type=""class="form-control" id="calificacionfinal" name="calificacionfinal"
+ placeholder=""required>
+
+</center>
+            </FORM> 
+  </div>
+      </div>
+    </td>
+  </tr>
+
+<p> </p>
+
+</body>
+</html
